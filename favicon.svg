@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141925" />
+      <stop offset="100%" stop-color="#090B10" />
+    </linearGradient>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B7F36B" />
+      <stop offset="100%" stop-color="#83E6DC" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shield Outline -->
+  <polygon points="32,4 56,14 56,36 32,58 8,36 8,14" fill="url(#shieldGrad)" stroke="url(#neonGrad)" stroke-width="3" stroke-linejoin="round" />
+  <!-- Monogram RR -->
+  <text x="32" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="20" font-weight="800" fill="#B7F36B" text-anchor="middle" letter-spacing="1">RR</text>
+  <!-- Small security node dot -->
+  <circle cx="32" cy="18" r="2.5" fill="#83E6DC" />
+</svg>
